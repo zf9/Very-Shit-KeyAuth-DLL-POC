@@ -8,10 +8,6 @@ std::string get_hwid();
 
 using json = nlohmann::json;
 
-std::string KeyAuthOwherID = "";
-std::string KeyAuthAppName = "Test";
-
-
 bool FirstStart = true;
 bool LoggedIn = false;
 std::string Text;
