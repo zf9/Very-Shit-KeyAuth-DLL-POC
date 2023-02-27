@@ -5,3 +5,4 @@ ImGui > https://github.com/ocornut/imgui
 ImGui Standalone > https://github.com/adamhlt/ImGui-Standalone   
 KeyAuth > https://docs.keyauth.cc/   
 WNetWrap > https://github.com/hack-tramp/WNetWrap   
+skCrypter > https://github.com/skadro-official   
