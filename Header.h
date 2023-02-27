@@ -14,7 +14,7 @@ std::string Text;
 std::string KeyAuth_message;
 std::string KeyAuth_sessionid;
 
-auto KeyAuth_init_URL = skCrypt("https://keyauth.win/api/1.2/?type=init&ver=1.0&name=Test&ownerid=XIT7yh4Z0R");
+auto KeyAuth_init_URL = skCrypt("https://keyauth.win/api/1.2/?type=init&ver=1.0&name=Test&ownerid=XXX");
 char KeyAuth_USER_Key_char[64] = "";
 std::string KeyAuth_USER_HWID = get_hwid();
 std::string KeyAuth_USER_Key_str(KeyAuth_USER_Key_char);

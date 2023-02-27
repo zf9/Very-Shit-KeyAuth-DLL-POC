@@ -20,7 +20,7 @@ bool Drawing::isActive()
 void LoginThing()
 {
 	std::string KeyAuth_USER_Key_str(KeyAuth_USER_Key_char);
-	std::string KeyAuth_license_URL = "https://keyauth.win/api/1.2/?type=license&key=" + KeyAuth_USER_Key_str + "&hwid=" + KeyAuth_USER_HWID + "&sessionid=" + KeyAuth_sessionid + "&name=Test&ownerid=XIT7yh4Z0R";
+	std::string KeyAuth_license_URL = "https://keyauth.win/api/1.2/?type=license&key=" + KeyAuth_USER_Key_str + "&hwid=" + KeyAuth_USER_HWID + "&sessionid=" + KeyAuth_sessionid + "&name=Test&ownerid=XXX";
 	wrap::Response r1 = wrap::HttpsRequest(wrap::Url{ KeyAuth_license_URL.c_str() }, wrap::Method{ "POST" });
 	Text = r1.text;
 	json data1 = json::parse(r1.text);
